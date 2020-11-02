@@ -1,0 +1,1 @@
+//practicing serving static files on express.js
