@@ -1,6 +1,6 @@
-//practicing reading directories for a file s
+//practicing writting to files
 var fs = require('fs')
-    //this allows us to read all of the directories in our folder  
+    //this allows us to write to files 
 fs.readdir('./', (err, data) => {
     console.log(data)
 })
