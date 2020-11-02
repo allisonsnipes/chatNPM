@@ -1,10 +1,10 @@
 {
   "name": "chatnpm",
   "version": "1.0.0",
-  "description": "",
   "main": "demo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/allisonsnipes/chatNPM/issues"
   },
-  "homepage": "https://github.com/allisonsnipes/chatNPM#readme"
+  "homepage": "https://github.com/allisonsnipes/chatNPM#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
